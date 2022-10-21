@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+color: palevioletred;
+}
+
+h1 {
+  color: pink
+}
+
+h3 {
+  color: skyblue
+}
