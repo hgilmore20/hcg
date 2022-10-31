@@ -1,16 +1,37 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: "Century Gothic", sans-serif;
 }
 
 h2 {
-color: palevioletred;
+  color: plum;
 }
 
 h1 {
-  color: pink
+  color: palevioletred;
 }
 
 h3 {
-  color: skyblue
+  color: pink;
+}
+
+label {
+  font-weight: bold;
+  display:inline-block;
+  width:138px;
+  text-align: center;
+  color:cornflowerblue
+}
+
+input {
+  margin-bottom: 12px;
+}
+
+input[type=submit] {
+  float:right;
+}
+
+form {
+  width: 290px;
 }

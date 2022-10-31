@@ -9,8 +9,23 @@
 </head>
 
 <body>
-  <h1>sign our guestbook</h1>
+  <h1>sign our guest list</h1>
+  <form action="#" onsubmit="return submitForm(this.name.value, this.hometown.value);">
+    <label>name</label>
+    <input id="name" /><br />
+    <label>hometown</label>
+    <input id="hometown" /> <br />
+    <input type="submit" /></br>
+  </form>
+  <h2>guest list</h2>
+  <ol id="guestlist"> 
+    <!-- example hard-coded data 
+    <li> hanna gilmore. memphis, tn</li>
+    <li> karen gilmore. cordova, tn</li>
+    -->
+  </ol>
   <a href="index.html">return to home page</a>
+  <script src="script.js"></script> 
 </body>
 
 </html>
